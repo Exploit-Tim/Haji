@@ -24,7 +24,7 @@
   <hr>
   
   <h3>💡 Sumber Kode Kami:</h3>
-  <a href="https://t.me/DaddyHaji" target="_blank">
+  <a href="https://t.me/azelloelvano" target="_blank">
     <img src="https://img.shields.io/badge/Source_Code-Telegram-blue?style=for-the-badge&logo=telegram">
   </a>
 </div>
@@ -44,5 +44,5 @@
   
   <hr>
 
-  <img src="https://files.catbox.moe/07me9d.jpg" alt="No Stealing" width="400px">
+  <img src="https://files.catbox.moe/fzlxwt.png" alt="No Stealing" width="400px">
 </div>
