@@ -1,16 +1,16 @@
-import os
-import glob
+from glob import glob
+from os.path import basename, dirname, isfile
+
 
 def import_modular():
-    mod_paths = glob.glob(f"{os.path.dirname(__file__)}/**/*.py", recursive=True)
+    mod_paths = glob(f"{dirname(__file__)}/*.py")
     return sorted(
         [
-            os.path.splitext(os.path.relpath(f, os.path.dirname(__file__)))[0].replace("/", ".")
+            basename(f)[:-3]
             for f in mod_paths
-            if os.path.isfile(f)
-            and f.endswith(".py")
-            and not f.endswith("__init__.py")
+            if isfile(f) and f.endswith(".py") and not f.endswith("__init__.py")
         ]
     )
+
 
 PLUGINS = import_modular()
