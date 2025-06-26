@@ -9,9 +9,9 @@ import requests
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.helpers import ikb
 from pyrogram.types import InlineKeyboardButton as Ikb
-from pyrogram.types import (InlineKeyboardMarkup, InputMediaAnimation,e
-                            InputMediaAudio, InputMediaDocument,
-                            InputMediaPhoto, InputMediaVideo)
+from pyrogram.types import InlineKeyboardMarkup, InputMediaAnimation, InputMediaAudio, InputMediaDocument, InputMediaPhoto, InputMediaVideo
+
+
 from pyrogram.utils import unpack_inline_message_id
 
 from config import COPY_ID, SUDO_OWNERS
