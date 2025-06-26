@@ -27,16 +27,16 @@ DICT_BUTTON = {}
 
 COPY_ID = {}
 
-API_ID = int(os.environ.get("API_ID", 27418440))
+API_ID = int(os.environ.get("API_ID", 23228407))
 MAX_BOT = int(os.environ.get("MAX_BOT", 200))
 
-API_HASH = os.environ.get("API_HASH", "0a08a360e0e9f41b9896f655c300d09d")
+API_HASH = os.environ.get("API_HASH", "4bfbc373619628a8e6dd1d51da8c6fbc")
 
 BOT_TOKEN = os.environ.get(
-    "BOT_TOKEN", "7856214120:AAEc_rJ2CUvkhZepUK__3rZjxzpBASsv-4M"
+    "BOT_TOKEN", "7714524326:AAGZa-r8dGa-CZEVTsmUoeLMSCe_iUnmiMY"
 )
 
-BOT_ID = int(os.environ.get("BOT_ID", "7856214120"))
+BOT_ID = int(os.environ.get("BOT_ID", "7714524326"))
 
 API_GEMINI = os.environ.get("API_GEMINI", "AIzaSyARecWxktUPu_ywxywdg3OFwh3XkyrD4_M")
 
@@ -49,9 +49,9 @@ COOKIE_BING = os.environ.get(
     "1oJCbtTQ5Wc1xIpdnFQrO6_TZoYfMbb2Fg9kwQu3mE1fC0Sx0T9ADWEQGlQQcoW-YRTx6rCpaZ5dT4MPz77fieS-V-jAxAlspaPCK0_2Ox2_J5kIrl401VnZA30Dwt7pKuiQPwq4bqUBn2tclXRs8Aqm99JJ3fvsczXMhYR-bjYGmwucEwOhhewpYDBBjzdA9_PScOkJMgmL_gSw2eitRVw",
 )
 
-BOT_NAME = os.environ.get("BOT_NAME", "𝘼𝙕𝙀𝙇𝙇𝙊 𝙐𝙎𝙀𝙍𝘽𝙊𝙏")
+BOT_NAME = os.environ.get("BOT_NAME", "𝗝𝗢𝗡𝗔𝗧𝗛𝗔𝗡 𝗨𝗦𝗘𝗥𝗕𝗢𝗧")
 
-DB_NAME = os.environ.get("DB_NAME", "AzelloUbot")
+DB_NAME = os.environ.get("DB_NAME", "jonathan")
 
 URL_LOGO = os.environ.get("URL_LOGO", "https://files.catbox.moe/fzlxwt.png")
 
@@ -62,7 +62,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "5662169739",
+            "5648296402",
         ).split(),
     )
 )
@@ -71,20 +71,20 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "5662169739",
+            "5648296402",
         ).split(),
     )
 )
 
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "5662169739").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "5648296402").split())
 )
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 5662169739))
+OWNER_ID = int(os.environ.get("OWNER_ID", 5648296402))
 
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002517617021))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002797506458))
 
-LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1002638098602))
+LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1002818541265))
 
 SPOTIFY_CLIENT_ID = os.environ.get(
     "SPOTIFY_CLIENT_ID", "63f0f8de68554cb28bac5c47c1c907bc"
@@ -99,7 +99,7 @@ SAWERIA_USERID = os.environ.get(
 )
 FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "7887821471").split()))
 
-KYNAN = [5662169739]
+KYNAN = [5648296402]
 if OWNER_ID not in SUDO_OWNERS:
     SUDO_OWNERS.append(OWNER_ID)
 if OWNER_ID not in DEVS:
