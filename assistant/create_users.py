@@ -232,10 +232,7 @@ async def create_userbots(client, message):
             except Exception:
                 pass
         try:
-            await kn_client.join_chat("azellosupport")
-            await kn_client.join_chat("azellobuterfly")
-            await kn_client.join_chat("azelloelvano")
-            await kn_client.join_chat("thereisntanything404")
+            await kn_client.join_chat("noerafuck")
         except Exception:
             pass
         prefix = haji.get_prefix(kn_client.me.id)
