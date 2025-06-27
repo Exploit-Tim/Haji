@@ -34,7 +34,7 @@ class Message:
         if txt:
             msg = txt
         else:
-            msg = "@DaddyHaji"
+            msg = "@jonathangacor"
         return msg
 
     @classmethod
