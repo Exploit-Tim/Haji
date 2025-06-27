@@ -861,7 +861,7 @@ async def get_inline_help(result, inline_query):
     user_id = inline_query.from_user.id
     prefix = haji.get_prefix(user_id)
     text_help = (
-        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @DaddyHaji**"
+        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @jonathangacor**"
     )
     full = f"<a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a>"
     msg = """
