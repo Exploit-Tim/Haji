@@ -27,7 +27,7 @@ async def _(client, message):
         nama = f"{client.get_arg(message)}"
         pref = client.get_prefix(client.me.id)
         x = next(iter(pref))
-        text_help2 = f"<blockquote>**⚡ {BOT_NAME} 𝘽𝙔 @DaddyHaji**</blockquote>"
+        text_help2 = f"<blockquote>**⚡ {BOT_NAME} 𝘽𝙔 @jonathangacor**</blockquote>"
         if nama in HELPABLE:
             return await message.reply(
                 f"{HELPABLE[nama].__HELP__.format(x, text_help2)}",
