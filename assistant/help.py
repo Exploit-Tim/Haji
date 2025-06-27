@@ -16,7 +16,7 @@ async def cek_plugins(client, message):
     user_id = message.from_user.id
     prefix = haji.get_prefix(user_id)
     text_help = (
-        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @azelloelvano**"
+        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @jonathangacor**"
     )
     full = f"<a href=tg://user?id={message.from_user.id}>{message.from_user.first_name} {message.from_user.last_name or '' }</a>"
     msg = """<b>
@@ -148,9 +148,9 @@ async def _(client, callback_query):
     full = f"<a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>"
     cekpic = await dB.get_var(user_id, "HELP_LOGO")
     text_help = (
-        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @azelloelvano**"
+        await dB.get_var(user_id, "text_help") or f"**⚡ {BOT_NAME} 𝘽𝙔 @jonathangacor**"
     )
-    text_help2 = f"<blockquote>**⚡ {BOT_NAME} 𝘽𝙔 @azelloelvano**</blockquote>"
+    text_help2 = f"<blockquote>**⚡ {BOT_NAME} 𝘽𝙔 @jonathangacor**</blockquote>"
     costum_cq = (
         callback_query.edit_message_caption
         if cekpic
